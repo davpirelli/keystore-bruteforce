@@ -1,0 +1,351 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/davidepirelli/Desktop/Progetti/K/KeystorePass-branch-sviluppo
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 394
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e[?1034hMacBook-Air-di-Davide:KeystorePass-branch-sviluppo davidepirelli$ "
+  - delay: 5243
+    content: 'n'
+  - delay: 161
+    content: o
+  - delay: 116
+    content: d
+  - delay: 94
+    content: e
+  - delay: 129
+    content: ' '
+  - delay: 2098
+    content: k
+  - delay: 147
+    content: e
+  - delay: 301
+    content: "\a"
+  - delay: 520
+    content: "\b\e[K"
+  - delay: 158
+    content: "\b\e[K"
+  - delay: 838
+    content: b
+  - delay: 101
+    content: r
+  - delay: 197
+    content: "ute-forc\rce.js "
+  - delay: 1459
+    content: c
+  - delay: 467
+    content: h
+  - delay: 284
+    content: "\a"
+  - delay: 477
+    content: "\b\e[K"
+  - delay: 150
+    content: "\b\e[K"
+  - delay: 130
+    content: C
+  - delay: 170
+    content: h
+  - delay: 383
+    content: i
+  - delay: 133
+    content: "\a"
+  - delay: 908
+    content: a
+  - delay: 242
+    content: "\a"
+  - delay: 545
+    content: "\b\e[K"
+  - delay: 182
+    content: "\b\e[K"
+  - delay: 165
+    content: "\b\e[K"
+  - delay: 522
+    content: "\b\e[K"
+  - delay: 328
+    content: F
+  - delay: 169
+    content: i
+  - delay: 168
+    content: 'rmaAppAndroid '
+  - delay: 1004
+    content: "\r\n"
+  - delay: 73
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 123456\r\n"
+  - delay: 8
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> password\r\n\e[1m \e[34m [BRUTEFORCE] Provo la password >> 12345678\r\n"
+  - delay: 5
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> qwerty\r\n\e[1m \e[34m [BRUTEFORCE] Provo la password >> 123456789\r\n"
+  - delay: 14
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 12345\r\n"
+  - delay: 9
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 1234\r\n"
+  - delay: 14
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 111111\r\n"
+  - delay: 14
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 1234567\r\n"
+  - delay: 16
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> dragon\r\n"
+  - delay: 12
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 123123\r\n"
+  - delay: 16
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> baseball\r\n"
+  - delay: 19
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> abc123\r\n"
+  - delay: 11
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> football\r\n"
+  - delay: 17
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> monkey\r\n"
+  - delay: 53
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> letmein\r\n"
+  - delay: 114
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 696969\r\n"
+  - delay: 9
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> shadow\r\n"
+  - delay: 12
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> master\r\n"
+  - delay: 32
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 666666\r\n"
+  - delay: 24
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> qwertyuiop\r\n"
+  - delay: 30
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 123321\r\n"
+  - delay: 25
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> mustang\r\n"
+  - delay: 12
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 1234567890\r\n"
+  - delay: 29
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> michael\r\n"
+  - delay: 24
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 654321\r\n"
+  - delay: 25
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> pussy\r\n"
+  - delay: 35
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> superman\r\n"
+  - delay: 30
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 1qaz2wsx\r\n"
+  - delay: 125
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 7777777\r\n"
+  - delay: 41
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> fuckyou\r\n"
+  - delay: 35
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 121212\r\n"
+  - delay: 80
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 000000\r\n"
+  - delay: 25
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> hunter90\r\n"
+  - delay: 92
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> Hunter\r\n"
+  - delay: 82
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> Hunter90\r\n"
+  - delay: 92
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 1\r\n"
+  - delay: 34
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> jordan\r\n"
+  - delay: 39
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> jennifer\r\n"
+  - delay: 53
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> zxcvbnm\r\n"
+  - delay: 43
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> asdfgh\r\n"
+  - delay: 65
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> hunter\r\n"
+  - delay: 94
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> buster\r\n"
+  - delay: 135
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> soccer\r\n"
+  - delay: 28
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> harley\r\n"
+  - delay: 58
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> batman\r\n"
+  - delay: 19
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> andrew\r\n"
+  - delay: 60
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> tigger\r\n"
+  - delay: 59
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> sunshine\r\n"
+  - delay: 74
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> iloveyou\r\n"
+  - delay: 126
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> fuckme\r\n"
+  - delay: 59
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 2000\r\n"
+  - delay: 69
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> charlie\r\n"
+  - delay: 90
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> robert\r\n"
+  - delay: 86
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> thomas\r\n"
+  - delay: 131
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> hockey\r\n"
+  - delay: 50
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> ranger\r\n"
+  - delay: 72
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> daniel\r\n"
+  - delay: 111
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> starwars\r\n"
+  - delay: 62
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> klaster\r\n"
+  - delay: 119
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 112233\r\n"
+  - delay: 93
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> george\r\n"
+  - delay: 69
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> asshole\r\n"
+  - delay: 48
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> computer\r\n"
+  - delay: 139
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> michelle\r\n"
+  - delay: 132
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> jessica\r\n"
+  - delay: 13
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> pepper\r\n"
+  - delay: 50
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 1111\r\n"
+  - delay: 346
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> zxcvbn\r\n"
+  - delay: 14
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 555555\r\n"
+  - delay: 9
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 11111111\r\n"
+  - delay: 10
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> 131313\r\n"
+  - delay: 15
+    content: "\e[1m \e[34m [BRUTEFORCE] Provo la password >> freedom\r\n"
+  - delay: 785
+    content: "\e[1m \e[32m Password trovata! La password della chiave è: \r\r\n\r\r\n ##############################\r\r\n hunter90 \r\r\n ##############################\r\r\n\r\r\n\r\n\e[1m \e[32m La password è stata salvata nel file risultato_bruteforce.txt! :D\r\n"
+  - delay: 1178
+    content: 'MacBook-Air-di-Davide:KeystorePass-branch-sviluppo davidepirelli$ '
+  - delay: 3573
+    content: "\r\nMacBook-Air-di-Davide:KeystorePass-branch-sviluppo davidepirelli$ "
+  - delay: 705
+    content: "\r\nMacBook-Air-di-Davide:KeystorePass-branch-sviluppo davidepirelli$ "
+  - delay: 432
+    content: e
+  - delay: 531
+    content: c
+  - delay: 214
+    content: i
+  - delay: 126
+    content: t
+  - delay: 252
+    content: "\b\e[K"
+  - delay: 160
+    content: "\b\e[K"
+  - delay: 145
+    content: "\b\e[K"
+  - delay: 72
+    content: x
+  - delay: 174
+    content: i
+  - delay: 94
+    content: t
+  - delay: 138
+    content: "\r\nlogout\r\n"
